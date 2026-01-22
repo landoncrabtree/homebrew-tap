@@ -1,8 +1,8 @@
 class Brewpy < Formula
   desc "Python version manager designed for macOS and Homebrew"
   homepage "https://github.com/landoncrabtree/brewpy"
-  url "https://github.com/landoncrabtree/brewpy/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "6b58dd95b4c73007d1bf9cb2e28c0b98e00cf334c27b880d93779f712216017b"
+  url "https://github.com/landoncrabtree/brewpy/archive/refs/tags/v1.0.5.tar.gz"
+  sha256 "46c7e74b5fff7ba0b8e863e10919877e60911d42641593ead96738cd57507130"
   license "MIT"
 
   depends_on "go" => :build
@@ -21,6 +21,6 @@ class Brewpy < Formula
   end
 
   test do
-    system "bin/brewpy", "--help"
+    system bin/"brewpy", "--help"
   end
 end
