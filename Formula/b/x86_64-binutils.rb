@@ -1,4 +1,4 @@
-class BinutilsX8664 < Formula
+class X8664Binutils < Formula
   homepage "https://www.gnu.org/software/binutils/binutils.html"
   url "https://ftpmirror.gnu.org/binutils/binutils-2.42.tar.gz"
   mirror "https://ftp.gnu.org/gnu/binutils/binutils-2.42.tar.gz"
